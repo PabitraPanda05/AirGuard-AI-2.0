@@ -1,0 +1,36 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Model files - review before uploading
+*.pt
+*.pth
+*.h5
+*.pkl
+*.joblib
+
+# Generated outputs
+outputs/
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
